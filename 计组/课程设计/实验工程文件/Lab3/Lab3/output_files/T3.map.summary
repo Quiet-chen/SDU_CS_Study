@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Nov 05 08:24:08 2022
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : T3
+Top-level Entity Name : T3
+Family : Cyclone IV E
+Total logic elements : 669
+    Total combinational functions : 597
+    Dedicated logic registers : 258
+Total registers : 258
+Total pins : 75
+Total virtual pins : 0
+Total memory bits : 10,240
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

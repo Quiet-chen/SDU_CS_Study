@@ -1,0 +1,15 @@
+|rhythm
+J0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+CLK => inst3.CLK
+CLK => inst2.CLK
+CLK => inst1.CLK
+CLR => inst3.ACLR
+CLR => inst2.ACLR
+CLR => inst1.ACLR
+CLR => inst.PRESET
+J1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+J2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+J3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

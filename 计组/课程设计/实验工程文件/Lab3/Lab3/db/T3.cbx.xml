@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="T3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|T3|ALU:inst36|div:inst32|ddd:inst|lpm_divide:LPM_DIVIDE_component" CBX_FILE_NAME="lpm_divide_60q.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|T3|RAM:inst1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_fqj1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|T3|ROM:inst2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_h1c1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

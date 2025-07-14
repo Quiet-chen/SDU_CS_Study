@@ -1,0 +1,1380 @@
+TimeQuest Timing Analyzer report for uIR
+Wed Oct 09 22:47:43 2019
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow 1200mV 85C Model Fmax Summary
+  6. Timing Closure Recommendations
+  7. Slow 1200mV 85C Model Setup Summary
+  8. Slow 1200mV 85C Model Hold Summary
+  9. Slow 1200mV 85C Model Recovery Summary
+ 10. Slow 1200mV 85C Model Removal Summary
+ 11. Slow 1200mV 85C Model Minimum Pulse Width Summary
+ 12. Slow 1200mV 85C Model Minimum Pulse Width: 'CPuIR'
+ 13. Setup Times
+ 14. Hold Times
+ 15. Clock to Output Times
+ 16. Minimum Clock to Output Times
+ 17. Slow 1200mV 85C Model Metastability Report
+ 18. Slow 1200mV 0C Model Fmax Summary
+ 19. Slow 1200mV 0C Model Setup Summary
+ 20. Slow 1200mV 0C Model Hold Summary
+ 21. Slow 1200mV 0C Model Recovery Summary
+ 22. Slow 1200mV 0C Model Removal Summary
+ 23. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 24. Slow 1200mV 0C Model Minimum Pulse Width: 'CPuIR'
+ 25. Setup Times
+ 26. Hold Times
+ 27. Clock to Output Times
+ 28. Minimum Clock to Output Times
+ 29. Slow 1200mV 0C Model Metastability Report
+ 30. Fast 1200mV 0C Model Setup Summary
+ 31. Fast 1200mV 0C Model Hold Summary
+ 32. Fast 1200mV 0C Model Recovery Summary
+ 33. Fast 1200mV 0C Model Removal Summary
+ 34. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 35. Fast 1200mV 0C Model Minimum Pulse Width: 'CPuIR'
+ 36. Setup Times
+ 37. Hold Times
+ 38. Clock to Output Times
+ 39. Minimum Clock to Output Times
+ 40. Fast 1200mV 0C Model Metastability Report
+ 41. Multicorner Timing Analysis Summary
+ 42. Setup Times
+ 43. Hold Times
+ 44. Clock to Output Times
+ 45. Minimum Clock to Output Times
+ 46. Board Trace Model Assignments
+ 47. Input Transition Times
+ 48. Signal Integrity Metrics (Slow 1200mv 0c Model)
+ 49. Signal Integrity Metrics (Slow 1200mv 85c Model)
+ 50. Signal Integrity Metrics (Fast 1200mv 0c Model)
+ 51. Clock Transfers
+ 52. Report TCCS
+ 53. Report RSKM
+ 54. Unconstrained Paths
+ 55. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                       ;
++--------------------+--------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version ;
+; Revision Name      ; uIR                                                                ;
+; Device Family      ; Cyclone IV E                                                       ;
+; Device Name        ; EP4CE6E22C8                                                        ;
+; Timing Models      ; Final                                                              ;
+; Delay Model        ; Combined                                                           ;
+; Rise/Fall Delays   ; Enabled                                                            ;
++--------------------+--------------------------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ; < 0.1%      ;
+;     Processors 5-8         ;   0.0%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                            ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-----------+
+; Clock Name ; Type ; Period ; Frequency  ; Rise  ; Fall  ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets   ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-----------+
+; CPuIR      ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { CPuIR } ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-----------+
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Fmax Summary ;
+--------------------------------------
+No paths to report.
+
+
+----------------------------------
+; Timing Closure Recommendations ;
+----------------------------------
+HTML report is unavailable in plain text report export.
+
+
+---------------------------------------
+; Slow 1200mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
++---------------------------------------------------+
+; Slow 1200mV 85C Model Minimum Pulse Width Summary ;
++-------+--------+----------------------------------+
+; Clock ; Slack  ; End Point TNS                    ;
++-------+--------+----------------------------------+
+; CPuIR ; -3.000 ; -38.688                          ;
++-------+--------+----------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 85C Model Minimum Pulse Width: 'CPuIR'                                                           ;
++--------+--------------+----------------+------------------+-------+------------+-----------------------------+
+; Slack  ; Actual Width ; Required Width ; Type             ; Clock ; Clock Edge ; Target                      ;
++--------+--------------+----------------+------------------+-------+------------+-----------------------------+
+; -3.000 ; 1.000        ; 4.000          ; Port Rate        ; CPuIR ; Rise       ; CPuIR                       ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|12              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|13              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|14              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|15              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|16              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|17              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|18              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|19              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|12              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|13              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|14              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|15              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|16              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|17              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|18              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|19              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|12              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|13              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|14              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|15              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|16              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|17              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|18              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|19              ;
+; 0.283  ; 0.503        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|15              ;
+; 0.283  ; 0.503        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|17              ;
+; 0.283  ; 0.503        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|19              ;
+; 0.283  ; 0.503        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|15              ;
+; 0.283  ; 0.503        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|17              ;
+; 0.283  ; 0.503        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|18              ;
+; 0.284  ; 0.504        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|12              ;
+; 0.284  ; 0.504        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|14              ;
+; 0.284  ; 0.504        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|13              ;
+; 0.285  ; 0.505        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|13              ;
+; 0.285  ; 0.505        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|17              ;
+; 0.285  ; 0.505        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|18              ;
+; 0.286  ; 0.506        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|16              ;
+; 0.286  ; 0.506        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|18              ;
+; 0.286  ; 0.506        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|16              ;
+; 0.288  ; 0.508        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|15              ;
+; 0.288  ; 0.508        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|16              ;
+; 0.289  ; 0.509        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|12              ;
+; 0.289  ; 0.509        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|19              ;
+; 0.289  ; 0.509        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|12              ;
+; 0.289  ; 0.509        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|19              ;
+; 0.290  ; 0.510        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|14              ;
+; 0.290  ; 0.510        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|13              ;
+; 0.291  ; 0.511        ; 0.220          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|14              ;
+; 0.300  ; 0.488        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|14              ;
+; 0.301  ; 0.489        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|13              ;
+; 0.302  ; 0.490        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|14              ;
+; 0.302  ; 0.490        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|12              ;
+; 0.302  ; 0.490        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|19              ;
+; 0.302  ; 0.490        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|12              ;
+; 0.302  ; 0.490        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|19              ;
+; 0.303  ; 0.491        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|15              ;
+; 0.303  ; 0.491        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|16              ;
+; 0.304  ; 0.492        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|18              ;
+; 0.305  ; 0.493        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|16              ;
+; 0.305  ; 0.493        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|16              ;
+; 0.306  ; 0.494        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|12              ;
+; 0.306  ; 0.494        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|13              ;
+; 0.306  ; 0.494        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|17              ;
+; 0.306  ; 0.494        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|18              ;
+; 0.307  ; 0.495        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|17              ;
+; 0.307  ; 0.495        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|14              ;
+; 0.307  ; 0.495        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|13              ;
+; 0.308  ; 0.496        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|15              ;
+; 0.308  ; 0.496        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|19              ;
+; 0.308  ; 0.496        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|15              ;
+; 0.308  ; 0.496        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|17              ;
+; 0.308  ; 0.496        ; 0.188          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|18              ;
+; 0.440  ; 0.440        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|14|clk                ;
+; 0.441  ; 0.441        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|14|clk                ;
+; 0.441  ; 0.441        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|13|clk                ;
+; 0.442  ; 0.442        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|12|clk                ;
+; 0.442  ; 0.442        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|19|clk                ;
+; 0.442  ; 0.442        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|12|clk                ;
+; 0.442  ; 0.442        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|19|clk                ;
+; 0.443  ; 0.443        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|15|clk                ;
+; 0.443  ; 0.443        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|16|clk                ;
+; 0.444  ; 0.444        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|18|clk                ;
+; 0.445  ; 0.445        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|16|clk                ;
+; 0.445  ; 0.445        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|16|clk                ;
+; 0.446  ; 0.446        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|12|clk                ;
+; 0.446  ; 0.446        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|13|clk                ;
+; 0.446  ; 0.446        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|17|clk                ;
+; 0.446  ; 0.446        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|18|clk                ;
+; 0.447  ; 0.447        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|17|clk                ;
+; 0.447  ; 0.447        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|14|clk                ;
+; 0.447  ; 0.447        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|13|clk                ;
+; 0.448  ; 0.448        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|15|clk                ;
+; 0.448  ; 0.448        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|19|clk                ;
+; 0.448  ; 0.448        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|15|clk                ;
+; 0.448  ; 0.448        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|17|clk                ;
+; 0.448  ; 0.448        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|18|clk                ;
+; 0.454  ; 0.454        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; CPuIR~input|o               ;
+; 0.467  ; 0.467        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; CPuIR~inputclkctrl|inclk[0] ;
+; 0.467  ; 0.467        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; CPuIR~inputclkctrl|outclk   ;
++--------+--------------+----------------+------------------+-------+------------+-----------------------------+
+
+
++-------------------------------------------------------------------------+
+; Setup Times                                                             ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; r0        ; CPuIR      ; 2.004  ; 2.272  ; Rise       ; CPuIR           ;
+; r1        ; CPuIR      ; 2.022  ; 2.266  ; Rise       ; CPuIR           ;
+; r2        ; CPuIR      ; -1.092 ; -1.008 ; Rise       ; CPuIR           ;
+; r3        ; CPuIR      ; -0.558 ; -0.440 ; Rise       ; CPuIR           ;
+; r4        ; CPuIR      ; 1.956  ; 2.233  ; Rise       ; CPuIR           ;
+; r5        ; CPuIR      ; 1.842  ; 2.079  ; Rise       ; CPuIR           ;
+; r6        ; CPuIR      ; 1.971  ; 2.235  ; Rise       ; CPuIR           ;
+; r7        ; CPuIR      ; 1.996  ; 2.250  ; Rise       ; CPuIR           ;
+; r8        ; CPuIR      ; 1.519  ; 1.774  ; Rise       ; CPuIR           ;
+; r9        ; CPuIR      ; 1.816  ; 2.054  ; Rise       ; CPuIR           ;
+; r10       ; CPuIR      ; 2.371  ; 2.557  ; Rise       ; CPuIR           ;
+; r11       ; CPuIR      ; -0.490 ; -0.377 ; Rise       ; CPuIR           ;
+; r12       ; CPuIR      ; -1.072 ; -0.988 ; Rise       ; CPuIR           ;
+; r13       ; CPuIR      ; 1.523  ; 1.777  ; Rise       ; CPuIR           ;
+; r14       ; CPuIR      ; 1.823  ; 2.059  ; Rise       ; CPuIR           ;
+; r15       ; CPuIR      ; 2.012  ; 2.252  ; Rise       ; CPuIR           ;
+; r16       ; CPuIR      ; 2.087  ; 2.335  ; Rise       ; CPuIR           ;
+; r17       ; CPuIR      ; 1.526  ; 1.781  ; Rise       ; CPuIR           ;
+; r18       ; CPuIR      ; 1.463  ; 1.725  ; Rise       ; CPuIR           ;
+; r19       ; CPuIR      ; 1.837  ; 2.075  ; Rise       ; CPuIR           ;
+; r20       ; CPuIR      ; 1.449  ; 1.711  ; Rise       ; CPuIR           ;
+; r21       ; CPuIR      ; 1.975  ; 2.237  ; Rise       ; CPuIR           ;
+; r22       ; CPuIR      ; 1.972  ; 2.240  ; Rise       ; CPuIR           ;
+; r23       ; CPuIR      ; 1.972  ; 2.235  ; Rise       ; CPuIR           ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-------------------------------------------------------------------------+
+; Hold Times                                                              ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; r0        ; CPuIR      ; -1.557 ; -1.815 ; Rise       ; CPuIR           ;
+; r1        ; CPuIR      ; -1.577 ; -1.807 ; Rise       ; CPuIR           ;
+; r2        ; CPuIR      ; 1.422  ; 1.352  ; Rise       ; CPuIR           ;
+; r3        ; CPuIR      ; 0.895  ; 0.779  ; Rise       ; CPuIR           ;
+; r4        ; CPuIR      ; -1.511 ; -1.777 ; Rise       ; CPuIR           ;
+; r5        ; CPuIR      ; -1.389 ; -1.602 ; Rise       ; CPuIR           ;
+; r6        ; CPuIR      ; -1.523 ; -1.777 ; Rise       ; CPuIR           ;
+; r7        ; CPuIR      ; -1.549 ; -1.793 ; Rise       ; CPuIR           ;
+; r8        ; CPuIR      ; -1.079 ; -1.309 ; Rise       ; CPuIR           ;
+; r9        ; CPuIR      ; -1.359 ; -1.576 ; Rise       ; CPuIR           ;
+; r10       ; CPuIR      ; -1.914 ; -2.089 ; Rise       ; CPuIR           ;
+; r11       ; CPuIR      ; 0.827  ; 0.717  ; Rise       ; CPuIR           ;
+; r12       ; CPuIR      ; 1.402  ; 1.332  ; Rise       ; CPuIR           ;
+; r13       ; CPuIR      ; -1.084 ; -1.313 ; Rise       ; CPuIR           ;
+; r14       ; CPuIR      ; -1.367 ; -1.581 ; Rise       ; CPuIR           ;
+; r15       ; CPuIR      ; -1.568 ; -1.795 ; Rise       ; CPuIR           ;
+; r16       ; CPuIR      ; -1.641 ; -1.876 ; Rise       ; CPuIR           ;
+; r17       ; CPuIR      ; -1.086 ; -1.316 ; Rise       ; CPuIR           ;
+; r18       ; CPuIR      ; -1.024 ; -1.261 ; Rise       ; CPuIR           ;
+; r19       ; CPuIR      ; -1.378 ; -1.596 ; Rise       ; CPuIR           ;
+; r20       ; CPuIR      ; -1.010 ; -1.247 ; Rise       ; CPuIR           ;
+; r21       ; CPuIR      ; -1.528 ; -1.781 ; Rise       ; CPuIR           ;
+; r22       ; CPuIR      ; -1.524 ; -1.782 ; Rise       ; CPuIR           ;
+; r23       ; CPuIR      ; -1.525 ; -1.778 ; Rise       ; CPuIR           ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Clock to Output Times                                                 ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; uIR0      ; CPuIR      ; 6.736 ; 6.645 ; Rise       ; CPuIR           ;
+; uIR1      ; CPuIR      ; 6.764 ; 6.666 ; Rise       ; CPuIR           ;
+; uIR2      ; CPuIR      ; 7.021 ; 6.962 ; Rise       ; CPuIR           ;
+; uIR3      ; CPuIR      ; 6.553 ; 6.541 ; Rise       ; CPuIR           ;
+; uIR4      ; CPuIR      ; 6.731 ; 6.633 ; Rise       ; CPuIR           ;
+; uIR5      ; CPuIR      ; 7.880 ; 7.950 ; Rise       ; CPuIR           ;
+; uIR6      ; CPuIR      ; 6.737 ; 6.640 ; Rise       ; CPuIR           ;
+; uIR7      ; CPuIR      ; 8.194 ; 8.203 ; Rise       ; CPuIR           ;
+; uIR8      ; CPuIR      ; 6.432 ; 6.397 ; Rise       ; CPuIR           ;
+; uIR9      ; CPuIR      ; 6.767 ; 6.660 ; Rise       ; CPuIR           ;
+; uIR10     ; CPuIR      ; 6.754 ; 6.694 ; Rise       ; CPuIR           ;
+; uIR11     ; CPuIR      ; 6.511 ; 6.492 ; Rise       ; CPuIR           ;
+; uIR12     ; CPuIR      ; 7.144 ; 7.043 ; Rise       ; CPuIR           ;
+; uIR13     ; CPuIR      ; 6.421 ; 6.386 ; Rise       ; CPuIR           ;
+; uIR14     ; CPuIR      ; 6.738 ; 6.639 ; Rise       ; CPuIR           ;
+; uIR15     ; CPuIR      ; 7.911 ; 7.988 ; Rise       ; CPuIR           ;
+; uIR16     ; CPuIR      ; 7.880 ; 7.950 ; Rise       ; CPuIR           ;
+; uIR17     ; CPuIR      ; 6.515 ; 6.496 ; Rise       ; CPuIR           ;
+; uIR18     ; CPuIR      ; 6.449 ; 6.421 ; Rise       ; CPuIR           ;
+; uIR19     ; CPuIR      ; 6.750 ; 6.652 ; Rise       ; CPuIR           ;
+; uIR20     ; CPuIR      ; 6.464 ; 6.436 ; Rise       ; CPuIR           ;
+; uIR21     ; CPuIR      ; 6.717 ; 6.621 ; Rise       ; CPuIR           ;
+; uIR22     ; CPuIR      ; 7.028 ; 6.868 ; Rise       ; CPuIR           ;
+; uIR23     ; CPuIR      ; 8.242 ; 8.236 ; Rise       ; CPuIR           ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Clock to Output Times                                         ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; uIR0      ; CPuIR      ; 6.507 ; 6.418 ; Rise       ; CPuIR           ;
+; uIR1      ; CPuIR      ; 6.535 ; 6.439 ; Rise       ; CPuIR           ;
+; uIR2      ; CPuIR      ; 6.780 ; 6.722 ; Rise       ; CPuIR           ;
+; uIR3      ; CPuIR      ; 6.330 ; 6.317 ; Rise       ; CPuIR           ;
+; uIR4      ; CPuIR      ; 6.503 ; 6.406 ; Rise       ; CPuIR           ;
+; uIR5      ; CPuIR      ; 7.658 ; 7.728 ; Rise       ; CPuIR           ;
+; uIR6      ; CPuIR      ; 6.509 ; 6.414 ; Rise       ; CPuIR           ;
+; uIR7      ; CPuIR      ; 7.965 ; 7.976 ; Rise       ; CPuIR           ;
+; uIR8      ; CPuIR      ; 6.211 ; 6.175 ; Rise       ; CPuIR           ;
+; uIR9      ; CPuIR      ; 6.538 ; 6.433 ; Rise       ; CPuIR           ;
+; uIR10     ; CPuIR      ; 6.523 ; 6.464 ; Rise       ; CPuIR           ;
+; uIR11     ; CPuIR      ; 6.289 ; 6.270 ; Rise       ; CPuIR           ;
+; uIR12     ; CPuIR      ; 6.897 ; 6.799 ; Rise       ; CPuIR           ;
+; uIR13     ; CPuIR      ; 6.200 ; 6.164 ; Rise       ; CPuIR           ;
+; uIR14     ; CPuIR      ; 6.509 ; 6.413 ; Rise       ; CPuIR           ;
+; uIR15     ; CPuIR      ; 7.689 ; 7.766 ; Rise       ; CPuIR           ;
+; uIR16     ; CPuIR      ; 7.658 ; 7.728 ; Rise       ; CPuIR           ;
+; uIR17     ; CPuIR      ; 6.293 ; 6.274 ; Rise       ; CPuIR           ;
+; uIR18     ; CPuIR      ; 6.226 ; 6.197 ; Rise       ; CPuIR           ;
+; uIR19     ; CPuIR      ; 6.521 ; 6.424 ; Rise       ; CPuIR           ;
+; uIR20     ; CPuIR      ; 6.241 ; 6.212 ; Rise       ; CPuIR           ;
+; uIR21     ; CPuIR      ; 6.490 ; 6.396 ; Rise       ; CPuIR           ;
+; uIR22     ; CPuIR      ; 6.788 ; 6.633 ; Rise       ; CPuIR           ;
+; uIR23     ; CPuIR      ; 8.011 ; 8.008 ; Rise       ; CPuIR           ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
+----------------------------------------------
+; Slow 1200mV 85C Model Metastability Report ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Fmax Summary ;
+-------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
++--------------------------------------------------+
+; Slow 1200mV 0C Model Minimum Pulse Width Summary ;
++-------+--------+---------------------------------+
+; Clock ; Slack  ; End Point TNS                   ;
++-------+--------+---------------------------------+
+; CPuIR ; -3.000 ; -38.688                         ;
++-------+--------+---------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 0C Model Minimum Pulse Width: 'CPuIR'                                                            ;
++--------+--------------+----------------+------------------+-------+------------+-----------------------------+
+; Slack  ; Actual Width ; Required Width ; Type             ; Clock ; Clock Edge ; Target                      ;
++--------+--------------+----------------+------------------+-------+------------+-----------------------------+
+; -3.000 ; 1.000        ; 4.000          ; Port Rate        ; CPuIR ; Rise       ; CPuIR                       ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|12              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|13              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|14              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|15              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|16              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|17              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|18              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|19              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|12              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|13              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|14              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|15              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|16              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|17              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|18              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|19              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|12              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|13              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|14              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|15              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|16              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|17              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|18              ;
+; -1.487 ; 1.000        ; 2.487          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|19              ;
+; 0.272  ; 0.488        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|12              ;
+; 0.273  ; 0.489        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|15              ;
+; 0.273  ; 0.489        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|17              ;
+; 0.273  ; 0.489        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|18              ;
+; 0.273  ; 0.489        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|18              ;
+; 0.273  ; 0.489        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|13              ;
+; 0.273  ; 0.489        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|17              ;
+; 0.274  ; 0.490        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|16              ;
+; 0.274  ; 0.490        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|19              ;
+; 0.274  ; 0.490        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|15              ;
+; 0.274  ; 0.490        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|17              ;
+; 0.275  ; 0.491        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|13              ;
+; 0.275  ; 0.491        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|14              ;
+; 0.275  ; 0.491        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|16              ;
+; 0.275  ; 0.491        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|16              ;
+; 0.275  ; 0.491        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|18              ;
+; 0.276  ; 0.492        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|12              ;
+; 0.277  ; 0.493        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|19              ;
+; 0.278  ; 0.494        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|13              ;
+; 0.278  ; 0.494        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|12              ;
+; 0.278  ; 0.494        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|14              ;
+; 0.278  ; 0.494        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|15              ;
+; 0.279  ; 0.495        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|14              ;
+; 0.279  ; 0.495        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|19              ;
+; 0.320  ; 0.504        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|14              ;
+; 0.320  ; 0.504        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|13              ;
+; 0.320  ; 0.504        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|12              ;
+; 0.320  ; 0.504        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|14              ;
+; 0.320  ; 0.504        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|15              ;
+; 0.320  ; 0.504        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|19              ;
+; 0.321  ; 0.505        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|19              ;
+; 0.322  ; 0.506        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|12              ;
+; 0.322  ; 0.506        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|14              ;
+; 0.322  ; 0.506        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|16              ;
+; 0.323  ; 0.507        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|13              ;
+; 0.323  ; 0.507        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|16              ;
+; 0.323  ; 0.507        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|16              ;
+; 0.323  ; 0.507        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|18              ;
+; 0.324  ; 0.508        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|18              ;
+; 0.324  ; 0.508        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|19              ;
+; 0.324  ; 0.508        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|15              ;
+; 0.324  ; 0.508        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|17              ;
+; 0.325  ; 0.509        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|15              ;
+; 0.325  ; 0.509        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|17              ;
+; 0.325  ; 0.509        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|18              ;
+; 0.325  ; 0.509        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|17              ;
+; 0.326  ; 0.510        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|12              ;
+; 0.326  ; 0.510        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|13              ;
+; 0.451  ; 0.451        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|14|clk                ;
+; 0.451  ; 0.451        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|19|clk                ;
+; 0.452  ; 0.452        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|13|clk                ;
+; 0.452  ; 0.452        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|12|clk                ;
+; 0.452  ; 0.452        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|14|clk                ;
+; 0.452  ; 0.452        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|15|clk                ;
+; 0.453  ; 0.453        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|19|clk                ;
+; 0.454  ; 0.454        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|12|clk                ;
+; 0.455  ; 0.455        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|13|clk                ;
+; 0.455  ; 0.455        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|14|clk                ;
+; 0.455  ; 0.455        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|16|clk                ;
+; 0.455  ; 0.455        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|16|clk                ;
+; 0.455  ; 0.455        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|18|clk                ;
+; 0.456  ; 0.456        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|16|clk                ;
+; 0.456  ; 0.456        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|19|clk                ;
+; 0.456  ; 0.456        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|15|clk                ;
+; 0.456  ; 0.456        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|17|clk                ;
+; 0.457  ; 0.457        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|15|clk                ;
+; 0.457  ; 0.457        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|17|clk                ;
+; 0.457  ; 0.457        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|18|clk                ;
+; 0.457  ; 0.457        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|18|clk                ;
+; 0.457  ; 0.457        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|13|clk                ;
+; 0.457  ; 0.457        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|17|clk                ;
+; 0.458  ; 0.458        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|12|clk                ;
+; 0.475  ; 0.475        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; CPuIR~input|o               ;
+; 0.479  ; 0.479        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; CPuIR~inputclkctrl|inclk[0] ;
+; 0.479  ; 0.479        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; CPuIR~inputclkctrl|outclk   ;
++--------+--------------+----------------+------------------+-------+------------+-----------------------------+
+
+
++-------------------------------------------------------------------------+
+; Setup Times                                                             ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; r0        ; CPuIR      ; 1.738  ; 1.893  ; Rise       ; CPuIR           ;
+; r1        ; CPuIR      ; 1.764  ; 1.893  ; Rise       ; CPuIR           ;
+; r2        ; CPuIR      ; -0.982 ; -0.884 ; Rise       ; CPuIR           ;
+; r3        ; CPuIR      ; -0.507 ; -0.330 ; Rise       ; CPuIR           ;
+; r4        ; CPuIR      ; 1.687  ; 1.861  ; Rise       ; CPuIR           ;
+; r5        ; CPuIR      ; 1.605  ; 1.707  ; Rise       ; CPuIR           ;
+; r6        ; CPuIR      ; 1.704  ; 1.857  ; Rise       ; CPuIR           ;
+; r7        ; CPuIR      ; 1.733  ; 1.875  ; Rise       ; CPuIR           ;
+; r8        ; CPuIR      ; 1.295  ; 1.433  ; Rise       ; CPuIR           ;
+; r9        ; CPuIR      ; 1.572  ; 1.677  ; Rise       ; CPuIR           ;
+; r10       ; CPuIR      ; 2.115  ; 2.148  ; Rise       ; CPuIR           ;
+; r11       ; CPuIR      ; -0.439 ; -0.271 ; Rise       ; CPuIR           ;
+; r12       ; CPuIR      ; -0.960 ; -0.866 ; Rise       ; CPuIR           ;
+; r13       ; CPuIR      ; 1.301  ; 1.438  ; Rise       ; CPuIR           ;
+; r14       ; CPuIR      ; 1.577  ; 1.682  ; Rise       ; CPuIR           ;
+; r15       ; CPuIR      ; 1.754  ; 1.879  ; Rise       ; CPuIR           ;
+; r16       ; CPuIR      ; 1.829  ; 1.953  ; Rise       ; CPuIR           ;
+; r17       ; CPuIR      ; 1.299  ; 1.437  ; Rise       ; CPuIR           ;
+; r18       ; CPuIR      ; 1.243  ; 1.388  ; Rise       ; CPuIR           ;
+; r19       ; CPuIR      ; 1.591  ; 1.697  ; Rise       ; CPuIR           ;
+; r20       ; CPuIR      ; 1.227  ; 1.373  ; Rise       ; CPuIR           ;
+; r21       ; CPuIR      ; 1.704  ; 1.861  ; Rise       ; CPuIR           ;
+; r22       ; CPuIR      ; 1.710  ; 1.864  ; Rise       ; CPuIR           ;
+; r23       ; CPuIR      ; 1.704  ; 1.856  ; Rise       ; CPuIR           ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-------------------------------------------------------------------------+
+; Hold Times                                                              ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; r0        ; CPuIR      ; -1.340 ; -1.489 ; Rise       ; CPuIR           ;
+; r1        ; CPuIR      ; -1.364 ; -1.486 ; Rise       ; CPuIR           ;
+; r2        ; CPuIR      ; 1.281  ; 1.196  ; Rise       ; CPuIR           ;
+; r3        ; CPuIR      ; 0.811  ; 0.640  ; Rise       ; CPuIR           ;
+; r4        ; CPuIR      ; -1.290 ; -1.458 ; Rise       ; CPuIR           ;
+; r5        ; CPuIR      ; -1.198 ; -1.285 ; Rise       ; CPuIR           ;
+; r6        ; CPuIR      ; -1.305 ; -1.453 ; Rise       ; CPuIR           ;
+; r7        ; CPuIR      ; -1.334 ; -1.471 ; Rise       ; CPuIR           ;
+; r8        ; CPuIR      ; -0.901 ; -1.021 ; Rise       ; CPuIR           ;
+; r9        ; CPuIR      ; -1.163 ; -1.256 ; Rise       ; CPuIR           ;
+; r10       ; CPuIR      ; -1.704 ; -1.733 ; Rise       ; CPuIR           ;
+; r11       ; CPuIR      ; 0.743  ; 0.581  ; Rise       ; CPuIR           ;
+; r12       ; CPuIR      ; 1.259  ; 1.177  ; Rise       ; CPuIR           ;
+; r13       ; CPuIR      ; -0.907 ; -1.026 ; Rise       ; CPuIR           ;
+; r14       ; CPuIR      ; -1.169 ; -1.261 ; Rise       ; CPuIR           ;
+; r15       ; CPuIR      ; -1.355 ; -1.473 ; Rise       ; CPuIR           ;
+; r16       ; CPuIR      ; -1.429 ; -1.545 ; Rise       ; CPuIR           ;
+; r17       ; CPuIR      ; -0.905 ; -1.025 ; Rise       ; CPuIR           ;
+; r18       ; CPuIR      ; -0.850 ; -0.977 ; Rise       ; CPuIR           ;
+; r19       ; CPuIR      ; -1.180 ; -1.274 ; Rise       ; CPuIR           ;
+; r20       ; CPuIR      ; -0.835 ; -0.962 ; Rise       ; CPuIR           ;
+; r21       ; CPuIR      ; -1.307 ; -1.459 ; Rise       ; CPuIR           ;
+; r22       ; CPuIR      ; -1.310 ; -1.459 ; Rise       ; CPuIR           ;
+; r23       ; CPuIR      ; -1.305 ; -1.452 ; Rise       ; CPuIR           ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Clock to Output Times                                                 ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; uIR0      ; CPuIR      ; 6.138 ; 6.004 ; Rise       ; CPuIR           ;
+; uIR1      ; CPuIR      ; 6.162 ; 6.024 ; Rise       ; CPuIR           ;
+; uIR2      ; CPuIR      ; 6.414 ; 6.283 ; Rise       ; CPuIR           ;
+; uIR3      ; CPuIR      ; 5.965 ; 5.903 ; Rise       ; CPuIR           ;
+; uIR4      ; CPuIR      ; 6.131 ; 5.993 ; Rise       ; CPuIR           ;
+; uIR5      ; CPuIR      ; 7.093 ; 7.107 ; Rise       ; CPuIR           ;
+; uIR6      ; CPuIR      ; 6.141 ; 6.002 ; Rise       ; CPuIR           ;
+; uIR7      ; CPuIR      ; 7.412 ; 7.334 ; Rise       ; CPuIR           ;
+; uIR8      ; CPuIR      ; 5.827 ; 5.780 ; Rise       ; CPuIR           ;
+; uIR9      ; CPuIR      ; 6.172 ; 6.020 ; Rise       ; CPuIR           ;
+; uIR10     ; CPuIR      ; 6.162 ; 6.036 ; Rise       ; CPuIR           ;
+; uIR11     ; CPuIR      ; 5.919 ; 5.855 ; Rise       ; CPuIR           ;
+; uIR12     ; CPuIR      ; 6.538 ; 6.351 ; Rise       ; CPuIR           ;
+; uIR13     ; CPuIR      ; 5.816 ; 5.769 ; Rise       ; CPuIR           ;
+; uIR14     ; CPuIR      ; 6.138 ; 6.000 ; Rise       ; CPuIR           ;
+; uIR15     ; CPuIR      ; 7.128 ; 7.145 ; Rise       ; CPuIR           ;
+; uIR16     ; CPuIR      ; 7.093 ; 7.107 ; Rise       ; CPuIR           ;
+; uIR17     ; CPuIR      ; 5.926 ; 5.862 ; Rise       ; CPuIR           ;
+; uIR18     ; CPuIR      ; 5.847 ; 5.802 ; Rise       ; CPuIR           ;
+; uIR19     ; CPuIR      ; 6.148 ; 6.010 ; Rise       ; CPuIR           ;
+; uIR20     ; CPuIR      ; 5.863 ; 5.818 ; Rise       ; CPuIR           ;
+; uIR21     ; CPuIR      ; 6.116 ; 5.983 ; Rise       ; CPuIR           ;
+; uIR22     ; CPuIR      ; 6.416 ; 6.204 ; Rise       ; CPuIR           ;
+; uIR23     ; CPuIR      ; 7.462 ; 7.368 ; Rise       ; CPuIR           ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Clock to Output Times                                         ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; uIR0      ; CPuIR      ; 5.911 ; 5.781 ; Rise       ; CPuIR           ;
+; uIR1      ; CPuIR      ; 5.933 ; 5.799 ; Rise       ; CPuIR           ;
+; uIR2      ; CPuIR      ; 6.176 ; 6.049 ; Rise       ; CPuIR           ;
+; uIR3      ; CPuIR      ; 5.745 ; 5.684 ; Rise       ; CPuIR           ;
+; uIR4      ; CPuIR      ; 5.903 ; 5.769 ; Rise       ; CPuIR           ;
+; uIR5      ; CPuIR      ; 6.874 ; 6.890 ; Rise       ; CPuIR           ;
+; uIR6      ; CPuIR      ; 5.913 ; 5.779 ; Rise       ; CPuIR           ;
+; uIR7      ; CPuIR      ; 7.184 ; 7.110 ; Rise       ; CPuIR           ;
+; uIR8      ; CPuIR      ; 5.608 ; 5.562 ; Rise       ; CPuIR           ;
+; uIR9      ; CPuIR      ; 5.943 ; 5.796 ; Rise       ; CPuIR           ;
+; uIR10     ; CPuIR      ; 5.934 ; 5.812 ; Rise       ; CPuIR           ;
+; uIR11     ; CPuIR      ; 5.700 ; 5.637 ; Rise       ; CPuIR           ;
+; uIR12     ; CPuIR      ; 6.295 ; 6.115 ; Rise       ; CPuIR           ;
+; uIR13     ; CPuIR      ; 5.597 ; 5.551 ; Rise       ; CPuIR           ;
+; uIR14     ; CPuIR      ; 5.910 ; 5.776 ; Rise       ; CPuIR           ;
+; uIR15     ; CPuIR      ; 6.907 ; 6.926 ; Rise       ; CPuIR           ;
+; uIR16     ; CPuIR      ; 6.874 ; 6.890 ; Rise       ; CPuIR           ;
+; uIR17     ; CPuIR      ; 5.707 ; 5.644 ; Rise       ; CPuIR           ;
+; uIR18     ; CPuIR      ; 5.628 ; 5.584 ; Rise       ; CPuIR           ;
+; uIR19     ; CPuIR      ; 5.919 ; 5.785 ; Rise       ; CPuIR           ;
+; uIR20     ; CPuIR      ; 5.644 ; 5.600 ; Rise       ; CPuIR           ;
+; uIR21     ; CPuIR      ; 5.890 ; 5.761 ; Rise       ; CPuIR           ;
+; uIR22     ; CPuIR      ; 6.177 ; 5.972 ; Rise       ; CPuIR           ;
+; uIR23     ; CPuIR      ; 7.233 ; 7.143 ; Rise       ; CPuIR           ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
+---------------------------------------------
+; Slow 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
+--------------------------------------
+; Fast 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Fast 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
++--------------------------------------------------+
+; Fast 1200mV 0C Model Minimum Pulse Width Summary ;
++-------+--------+---------------------------------+
+; Clock ; Slack  ; End Point TNS                   ;
++-------+--------+---------------------------------+
+; CPuIR ; -3.000 ; -28.553                         ;
++-------+--------+---------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Fast 1200mV 0C Model Minimum Pulse Width: 'CPuIR'                                                            ;
++--------+--------------+----------------+------------------+-------+------------+-----------------------------+
+; Slack  ; Actual Width ; Required Width ; Type             ; Clock ; Clock Edge ; Target                      ;
++--------+--------------+----------------+------------------+-------+------------+-----------------------------+
+; -3.000 ; 1.000        ; 4.000          ; Port Rate        ; CPuIR ; Rise       ; CPuIR                       ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|12              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|13              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|14              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|15              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|16              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|17              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|18              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:ins2t|19              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|12              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|13              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|14              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|15              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|16              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|17              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|18              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst1|19              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|12              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|13              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|14              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|15              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|16              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|17              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|18              ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period       ; CPuIR ; Rise       ; 74273:inst2|19              ;
+; -0.066 ; 0.118        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|14              ;
+; -0.066 ; 0.118        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|12              ;
+; -0.066 ; 0.118        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|13              ;
+; -0.066 ; 0.118        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|16              ;
+; -0.066 ; 0.118        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|19              ;
+; -0.066 ; 0.118        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|12              ;
+; -0.066 ; 0.118        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|15              ;
+; -0.065 ; 0.119        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|13              ;
+; -0.065 ; 0.119        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|16              ;
+; -0.065 ; 0.119        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|14              ;
+; -0.065 ; 0.119        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|15              ;
+; -0.065 ; 0.119        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|14              ;
+; -0.065 ; 0.119        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|16              ;
+; -0.065 ; 0.119        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|18              ;
+; -0.065 ; 0.119        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|19              ;
+; -0.064 ; 0.120        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|17              ;
+; -0.064 ; 0.120        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|18              ;
+; -0.064 ; 0.120        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|19              ;
+; -0.064 ; 0.120        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|17              ;
+; -0.064 ; 0.120        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|17              ;
+; -0.063 ; 0.121        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|15              ;
+; -0.063 ; 0.121        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst1|18              ;
+; -0.063 ; 0.121        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:inst2|13              ;
+; -0.062 ; 0.122        ; 0.184          ; Low Pulse Width  ; CPuIR ; Rise       ; 74273:ins2t|12              ;
+; 0.114  ; 0.114        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|14|clk                ;
+; 0.114  ; 0.114        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|12|clk                ;
+; 0.114  ; 0.114        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|13|clk                ;
+; 0.114  ; 0.114        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|16|clk                ;
+; 0.114  ; 0.114        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|19|clk                ;
+; 0.114  ; 0.114        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|12|clk                ;
+; 0.114  ; 0.114        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|15|clk                ;
+; 0.115  ; 0.115        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|13|clk                ;
+; 0.115  ; 0.115        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|16|clk                ;
+; 0.115  ; 0.115        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|14|clk                ;
+; 0.115  ; 0.115        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|15|clk                ;
+; 0.115  ; 0.115        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|14|clk                ;
+; 0.115  ; 0.115        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|16|clk                ;
+; 0.115  ; 0.115        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|18|clk                ;
+; 0.115  ; 0.115        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|19|clk                ;
+; 0.116  ; 0.116        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|17|clk                ;
+; 0.116  ; 0.116        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|18|clk                ;
+; 0.116  ; 0.116        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|19|clk                ;
+; 0.116  ; 0.116        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|17|clk                ;
+; 0.116  ; 0.116        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|17|clk                ;
+; 0.117  ; 0.117        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|15|clk                ;
+; 0.117  ; 0.117        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst1|18|clk                ;
+; 0.117  ; 0.117        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; inst2|13|clk                ;
+; 0.118  ; 0.118        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; ins2t|12|clk                ;
+; 0.120  ; 0.120        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; CPuIR~input|o               ;
+; 0.139  ; 0.139        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; CPuIR~inputclkctrl|inclk[0] ;
+; 0.139  ; 0.139        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; CPuIR~inputclkctrl|outclk   ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; CPuIR ; Rise       ; CPuIR~input|i               ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; CPuIR ; Rise       ; CPuIR~input|i               ;
+; 0.659  ; 0.875        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|12              ;
+; 0.660  ; 0.876        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|15              ;
+; 0.660  ; 0.876        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|18              ;
+; 0.660  ; 0.876        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|13              ;
+; 0.661  ; 0.877        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|18              ;
+; 0.661  ; 0.877        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|19              ;
+; 0.661  ; 0.877        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|17              ;
+; 0.662  ; 0.878        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|13              ;
+; 0.662  ; 0.878        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|17              ;
+; 0.662  ; 0.878        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|19              ;
+; 0.662  ; 0.878        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|15              ;
+; 0.662  ; 0.878        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|16              ;
+; 0.662  ; 0.878        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|17              ;
+; 0.662  ; 0.878        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|18              ;
+; 0.663  ; 0.879        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|14              ;
+; 0.663  ; 0.879        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:ins2t|16              ;
+; 0.663  ; 0.879        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|13              ;
+; 0.663  ; 0.879        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|14              ;
+; 0.663  ; 0.879        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|15              ;
+; 0.663  ; 0.879        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst1|16              ;
+; 0.663  ; 0.879        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|12              ;
+; 0.663  ; 0.879        ; 0.216          ; High Pulse Width ; CPuIR ; Rise       ; 74273:inst2|14              ;
++--------+--------------+----------------+------------------+-------+------------+-----------------------------+
+
+
++-------------------------------------------------------------------------+
+; Setup Times                                                             ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; r0        ; CPuIR      ; 0.943  ; 1.507  ; Rise       ; CPuIR           ;
+; r1        ; CPuIR      ; 0.939  ; 1.499  ; Rise       ; CPuIR           ;
+; r2        ; CPuIR      ; -0.538 ; -0.161 ; Rise       ; CPuIR           ;
+; r3        ; CPuIR      ; -0.287 ; 0.054  ; Rise       ; CPuIR           ;
+; r4        ; CPuIR      ; 0.931  ; 1.488  ; Rise       ; CPuIR           ;
+; r5        ; CPuIR      ; 0.874  ; 1.444  ; Rise       ; CPuIR           ;
+; r6        ; CPuIR      ; 0.924  ; 1.485  ; Rise       ; CPuIR           ;
+; r7        ; CPuIR      ; 0.938  ; 1.493  ; Rise       ; CPuIR           ;
+; r8        ; CPuIR      ; 0.729  ; 1.282  ; Rise       ; CPuIR           ;
+; r9        ; CPuIR      ; 0.871  ; 1.442  ; Rise       ; CPuIR           ;
+; r10       ; CPuIR      ; 1.062  ; 1.637  ; Rise       ; CPuIR           ;
+; r11       ; CPuIR      ; -0.247 ; 0.088  ; Rise       ; CPuIR           ;
+; r12       ; CPuIR      ; -0.526 ; -0.151 ; Rise       ; CPuIR           ;
+; r13       ; CPuIR      ; 0.733  ; 1.285  ; Rise       ; CPuIR           ;
+; r14       ; CPuIR      ; 0.868  ; 1.438  ; Rise       ; CPuIR           ;
+; r15       ; CPuIR      ; 0.930  ; 1.488  ; Rise       ; CPuIR           ;
+; r16       ; CPuIR      ; 0.964  ; 1.532  ; Rise       ; CPuIR           ;
+; r17       ; CPuIR      ; 0.733  ; 1.286  ; Rise       ; CPuIR           ;
+; r18       ; CPuIR      ; 0.712  ; 1.259  ; Rise       ; CPuIR           ;
+; r19       ; CPuIR      ; 0.880  ; 1.451  ; Rise       ; CPuIR           ;
+; r20       ; CPuIR      ; 0.702  ; 1.249  ; Rise       ; CPuIR           ;
+; r21       ; CPuIR      ; 0.934  ; 1.486  ; Rise       ; CPuIR           ;
+; r22       ; CPuIR      ; 0.924  ; 1.488  ; Rise       ; CPuIR           ;
+; r23       ; CPuIR      ; 0.924  ; 1.486  ; Rise       ; CPuIR           ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-------------------------------------------------------------------------+
+; Hold Times                                                              ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; r0        ; CPuIR      ; -0.747 ; -1.303 ; Rise       ; CPuIR           ;
+; r1        ; CPuIR      ; -0.741 ; -1.295 ; Rise       ; CPuIR           ;
+; r2        ; CPuIR      ; 0.677  ; 0.307  ; Rise       ; CPuIR           ;
+; r3        ; CPuIR      ; 0.431  ; 0.088  ; Rise       ; CPuIR           ;
+; r4        ; CPuIR      ; -0.736 ; -1.286 ; Rise       ; CPuIR           ;
+; r5        ; CPuIR      ; -0.674 ; -1.231 ; Rise       ; CPuIR           ;
+; r6        ; CPuIR      ; -0.728 ; -1.282 ; Rise       ; CPuIR           ;
+; r7        ; CPuIR      ; -0.743 ; -1.290 ; Rise       ; CPuIR           ;
+; r8        ; CPuIR      ; -0.536 ; -1.076 ; Rise       ; CPuIR           ;
+; r9        ; CPuIR      ; -0.674 ; -1.230 ; Rise       ; CPuIR           ;
+; r10       ; CPuIR      ; -0.860 ; -1.429 ; Rise       ; CPuIR           ;
+; r11       ; CPuIR      ; 0.391  ; 0.054  ; Rise       ; CPuIR           ;
+; r12       ; CPuIR      ; 0.665  ; 0.296  ; Rise       ; CPuIR           ;
+; r13       ; CPuIR      ; -0.538 ; -1.079 ; Rise       ; CPuIR           ;
+; r14       ; CPuIR      ; -0.670 ; -1.225 ; Rise       ; CPuIR           ;
+; r15       ; CPuIR      ; -0.732 ; -1.284 ; Rise       ; CPuIR           ;
+; r16       ; CPuIR      ; -0.766 ; -1.328 ; Rise       ; CPuIR           ;
+; r17       ; CPuIR      ; -0.539 ; -1.079 ; Rise       ; CPuIR           ;
+; r18       ; CPuIR      ; -0.518 ; -1.054 ; Rise       ; CPuIR           ;
+; r19       ; CPuIR      ; -0.682 ; -1.238 ; Rise       ; CPuIR           ;
+; r20       ; CPuIR      ; -0.508 ; -1.043 ; Rise       ; CPuIR           ;
+; r21       ; CPuIR      ; -0.738 ; -1.283 ; Rise       ; CPuIR           ;
+; r22       ; CPuIR      ; -0.729 ; -1.284 ; Rise       ; CPuIR           ;
+; r23       ; CPuIR      ; -0.729 ; -1.283 ; Rise       ; CPuIR           ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Clock to Output Times                                                 ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; uIR0      ; CPuIR      ; 3.161 ; 3.204 ; Rise       ; CPuIR           ;
+; uIR1      ; CPuIR      ; 3.176 ; 3.218 ; Rise       ; CPuIR           ;
+; uIR2      ; CPuIR      ; 3.316 ; 3.402 ; Rise       ; CPuIR           ;
+; uIR3      ; CPuIR      ; 3.108 ; 3.172 ; Rise       ; CPuIR           ;
+; uIR4      ; CPuIR      ; 3.155 ; 3.197 ; Rise       ; CPuIR           ;
+; uIR5      ; CPuIR      ; 3.965 ; 4.064 ; Rise       ; CPuIR           ;
+; uIR6      ; CPuIR      ; 3.165 ; 3.206 ; Rise       ; CPuIR           ;
+; uIR7      ; CPuIR      ; 4.098 ; 4.196 ; Rise       ; CPuIR           ;
+; uIR8      ; CPuIR      ; 3.036 ; 3.078 ; Rise       ; CPuIR           ;
+; uIR9      ; CPuIR      ; 3.164 ; 3.207 ; Rise       ; CPuIR           ;
+; uIR10     ; CPuIR      ; 3.176 ; 3.244 ; Rise       ; CPuIR           ;
+; uIR11     ; CPuIR      ; 3.083 ; 3.145 ; Rise       ; CPuIR           ;
+; uIR12     ; CPuIR      ; 3.331 ; 3.426 ; Rise       ; CPuIR           ;
+; uIR13     ; CPuIR      ; 3.030 ; 3.072 ; Rise       ; CPuIR           ;
+; uIR14     ; CPuIR      ; 3.162 ; 3.205 ; Rise       ; CPuIR           ;
+; uIR15     ; CPuIR      ; 3.981 ; 4.082 ; Rise       ; CPuIR           ;
+; uIR16     ; CPuIR      ; 3.964 ; 4.063 ; Rise       ; CPuIR           ;
+; uIR17     ; CPuIR      ; 3.087 ; 3.149 ; Rise       ; CPuIR           ;
+; uIR18     ; CPuIR      ; 3.045 ; 3.089 ; Rise       ; CPuIR           ;
+; uIR19     ; CPuIR      ; 3.162 ; 3.205 ; Rise       ; CPuIR           ;
+; uIR20     ; CPuIR      ; 3.056 ; 3.100 ; Rise       ; CPuIR           ;
+; uIR21     ; CPuIR      ; 3.155 ; 3.197 ; Rise       ; CPuIR           ;
+; uIR22     ; CPuIR      ; 3.268 ; 3.315 ; Rise       ; CPuIR           ;
+; uIR23     ; CPuIR      ; 4.115 ; 4.214 ; Rise       ; CPuIR           ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Clock to Output Times                                         ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; uIR0      ; CPuIR      ; 3.061 ; 3.102 ; Rise       ; CPuIR           ;
+; uIR1      ; CPuIR      ; 3.075 ; 3.116 ; Rise       ; CPuIR           ;
+; uIR2      ; CPuIR      ; 3.213 ; 3.297 ; Rise       ; CPuIR           ;
+; uIR3      ; CPuIR      ; 3.013 ; 3.076 ; Rise       ; CPuIR           ;
+; uIR4      ; CPuIR      ; 3.055 ; 3.096 ; Rise       ; CPuIR           ;
+; uIR5      ; CPuIR      ; 3.871 ; 3.968 ; Rise       ; CPuIR           ;
+; uIR6      ; CPuIR      ; 3.065 ; 3.104 ; Rise       ; CPuIR           ;
+; uIR7      ; CPuIR      ; 3.998 ; 4.095 ; Rise       ; CPuIR           ;
+; uIR8      ; CPuIR      ; 2.942 ; 2.983 ; Rise       ; CPuIR           ;
+; uIR9      ; CPuIR      ; 3.065 ; 3.106 ; Rise       ; CPuIR           ;
+; uIR10     ; CPuIR      ; 3.079 ; 3.145 ; Rise       ; CPuIR           ;
+; uIR11     ; CPuIR      ; 2.989 ; 3.050 ; Rise       ; CPuIR           ;
+; uIR12     ; CPuIR      ; 3.227 ; 3.319 ; Rise       ; CPuIR           ;
+; uIR13     ; CPuIR      ; 2.935 ; 2.976 ; Rise       ; CPuIR           ;
+; uIR14     ; CPuIR      ; 3.062 ; 3.103 ; Rise       ; CPuIR           ;
+; uIR15     ; CPuIR      ; 3.887 ; 3.986 ; Rise       ; CPuIR           ;
+; uIR16     ; CPuIR      ; 3.871 ; 3.968 ; Rise       ; CPuIR           ;
+; uIR17     ; CPuIR      ; 2.992 ; 3.053 ; Rise       ; CPuIR           ;
+; uIR18     ; CPuIR      ; 2.950 ; 2.993 ; Rise       ; CPuIR           ;
+; uIR19     ; CPuIR      ; 3.062 ; 3.103 ; Rise       ; CPuIR           ;
+; uIR20     ; CPuIR      ; 2.961 ; 3.004 ; Rise       ; CPuIR           ;
+; uIR21     ; CPuIR      ; 3.055 ; 3.095 ; Rise       ; CPuIR           ;
+; uIR22     ; CPuIR      ; 3.164 ; 3.209 ; Rise       ; CPuIR           ;
+; uIR23     ; CPuIR      ; 4.014 ; 4.112 ; Rise       ; CPuIR           ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
+---------------------------------------------
+; Fast 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; -3.000              ;
+;  CPuIR           ; N/A   ; N/A  ; N/A      ; N/A     ; -3.000              ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; -38.688             ;
+;  CPuIR           ; N/A   ; N/A  ; N/A      ; N/A     ; -38.688             ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-------------------------------------------------------------------------+
+; Setup Times                                                             ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; r0        ; CPuIR      ; 2.004  ; 2.272  ; Rise       ; CPuIR           ;
+; r1        ; CPuIR      ; 2.022  ; 2.266  ; Rise       ; CPuIR           ;
+; r2        ; CPuIR      ; -0.538 ; -0.161 ; Rise       ; CPuIR           ;
+; r3        ; CPuIR      ; -0.287 ; 0.054  ; Rise       ; CPuIR           ;
+; r4        ; CPuIR      ; 1.956  ; 2.233  ; Rise       ; CPuIR           ;
+; r5        ; CPuIR      ; 1.842  ; 2.079  ; Rise       ; CPuIR           ;
+; r6        ; CPuIR      ; 1.971  ; 2.235  ; Rise       ; CPuIR           ;
+; r7        ; CPuIR      ; 1.996  ; 2.250  ; Rise       ; CPuIR           ;
+; r8        ; CPuIR      ; 1.519  ; 1.774  ; Rise       ; CPuIR           ;
+; r9        ; CPuIR      ; 1.816  ; 2.054  ; Rise       ; CPuIR           ;
+; r10       ; CPuIR      ; 2.371  ; 2.557  ; Rise       ; CPuIR           ;
+; r11       ; CPuIR      ; -0.247 ; 0.088  ; Rise       ; CPuIR           ;
+; r12       ; CPuIR      ; -0.526 ; -0.151 ; Rise       ; CPuIR           ;
+; r13       ; CPuIR      ; 1.523  ; 1.777  ; Rise       ; CPuIR           ;
+; r14       ; CPuIR      ; 1.823  ; 2.059  ; Rise       ; CPuIR           ;
+; r15       ; CPuIR      ; 2.012  ; 2.252  ; Rise       ; CPuIR           ;
+; r16       ; CPuIR      ; 2.087  ; 2.335  ; Rise       ; CPuIR           ;
+; r17       ; CPuIR      ; 1.526  ; 1.781  ; Rise       ; CPuIR           ;
+; r18       ; CPuIR      ; 1.463  ; 1.725  ; Rise       ; CPuIR           ;
+; r19       ; CPuIR      ; 1.837  ; 2.075  ; Rise       ; CPuIR           ;
+; r20       ; CPuIR      ; 1.449  ; 1.711  ; Rise       ; CPuIR           ;
+; r21       ; CPuIR      ; 1.975  ; 2.237  ; Rise       ; CPuIR           ;
+; r22       ; CPuIR      ; 1.972  ; 2.240  ; Rise       ; CPuIR           ;
+; r23       ; CPuIR      ; 1.972  ; 2.235  ; Rise       ; CPuIR           ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-------------------------------------------------------------------------+
+; Hold Times                                                              ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; r0        ; CPuIR      ; -0.747 ; -1.303 ; Rise       ; CPuIR           ;
+; r1        ; CPuIR      ; -0.741 ; -1.295 ; Rise       ; CPuIR           ;
+; r2        ; CPuIR      ; 1.422  ; 1.352  ; Rise       ; CPuIR           ;
+; r3        ; CPuIR      ; 0.895  ; 0.779  ; Rise       ; CPuIR           ;
+; r4        ; CPuIR      ; -0.736 ; -1.286 ; Rise       ; CPuIR           ;
+; r5        ; CPuIR      ; -0.674 ; -1.231 ; Rise       ; CPuIR           ;
+; r6        ; CPuIR      ; -0.728 ; -1.282 ; Rise       ; CPuIR           ;
+; r7        ; CPuIR      ; -0.743 ; -1.290 ; Rise       ; CPuIR           ;
+; r8        ; CPuIR      ; -0.536 ; -1.021 ; Rise       ; CPuIR           ;
+; r9        ; CPuIR      ; -0.674 ; -1.230 ; Rise       ; CPuIR           ;
+; r10       ; CPuIR      ; -0.860 ; -1.429 ; Rise       ; CPuIR           ;
+; r11       ; CPuIR      ; 0.827  ; 0.717  ; Rise       ; CPuIR           ;
+; r12       ; CPuIR      ; 1.402  ; 1.332  ; Rise       ; CPuIR           ;
+; r13       ; CPuIR      ; -0.538 ; -1.026 ; Rise       ; CPuIR           ;
+; r14       ; CPuIR      ; -0.670 ; -1.225 ; Rise       ; CPuIR           ;
+; r15       ; CPuIR      ; -0.732 ; -1.284 ; Rise       ; CPuIR           ;
+; r16       ; CPuIR      ; -0.766 ; -1.328 ; Rise       ; CPuIR           ;
+; r17       ; CPuIR      ; -0.539 ; -1.025 ; Rise       ; CPuIR           ;
+; r18       ; CPuIR      ; -0.518 ; -0.977 ; Rise       ; CPuIR           ;
+; r19       ; CPuIR      ; -0.682 ; -1.238 ; Rise       ; CPuIR           ;
+; r20       ; CPuIR      ; -0.508 ; -0.962 ; Rise       ; CPuIR           ;
+; r21       ; CPuIR      ; -0.738 ; -1.283 ; Rise       ; CPuIR           ;
+; r22       ; CPuIR      ; -0.729 ; -1.284 ; Rise       ; CPuIR           ;
+; r23       ; CPuIR      ; -0.729 ; -1.283 ; Rise       ; CPuIR           ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Clock to Output Times                                                 ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; uIR0      ; CPuIR      ; 6.736 ; 6.645 ; Rise       ; CPuIR           ;
+; uIR1      ; CPuIR      ; 6.764 ; 6.666 ; Rise       ; CPuIR           ;
+; uIR2      ; CPuIR      ; 7.021 ; 6.962 ; Rise       ; CPuIR           ;
+; uIR3      ; CPuIR      ; 6.553 ; 6.541 ; Rise       ; CPuIR           ;
+; uIR4      ; CPuIR      ; 6.731 ; 6.633 ; Rise       ; CPuIR           ;
+; uIR5      ; CPuIR      ; 7.880 ; 7.950 ; Rise       ; CPuIR           ;
+; uIR6      ; CPuIR      ; 6.737 ; 6.640 ; Rise       ; CPuIR           ;
+; uIR7      ; CPuIR      ; 8.194 ; 8.203 ; Rise       ; CPuIR           ;
+; uIR8      ; CPuIR      ; 6.432 ; 6.397 ; Rise       ; CPuIR           ;
+; uIR9      ; CPuIR      ; 6.767 ; 6.660 ; Rise       ; CPuIR           ;
+; uIR10     ; CPuIR      ; 6.754 ; 6.694 ; Rise       ; CPuIR           ;
+; uIR11     ; CPuIR      ; 6.511 ; 6.492 ; Rise       ; CPuIR           ;
+; uIR12     ; CPuIR      ; 7.144 ; 7.043 ; Rise       ; CPuIR           ;
+; uIR13     ; CPuIR      ; 6.421 ; 6.386 ; Rise       ; CPuIR           ;
+; uIR14     ; CPuIR      ; 6.738 ; 6.639 ; Rise       ; CPuIR           ;
+; uIR15     ; CPuIR      ; 7.911 ; 7.988 ; Rise       ; CPuIR           ;
+; uIR16     ; CPuIR      ; 7.880 ; 7.950 ; Rise       ; CPuIR           ;
+; uIR17     ; CPuIR      ; 6.515 ; 6.496 ; Rise       ; CPuIR           ;
+; uIR18     ; CPuIR      ; 6.449 ; 6.421 ; Rise       ; CPuIR           ;
+; uIR19     ; CPuIR      ; 6.750 ; 6.652 ; Rise       ; CPuIR           ;
+; uIR20     ; CPuIR      ; 6.464 ; 6.436 ; Rise       ; CPuIR           ;
+; uIR21     ; CPuIR      ; 6.717 ; 6.621 ; Rise       ; CPuIR           ;
+; uIR22     ; CPuIR      ; 7.028 ; 6.868 ; Rise       ; CPuIR           ;
+; uIR23     ; CPuIR      ; 8.242 ; 8.236 ; Rise       ; CPuIR           ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Clock to Output Times                                         ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; uIR0      ; CPuIR      ; 3.061 ; 3.102 ; Rise       ; CPuIR           ;
+; uIR1      ; CPuIR      ; 3.075 ; 3.116 ; Rise       ; CPuIR           ;
+; uIR2      ; CPuIR      ; 3.213 ; 3.297 ; Rise       ; CPuIR           ;
+; uIR3      ; CPuIR      ; 3.013 ; 3.076 ; Rise       ; CPuIR           ;
+; uIR4      ; CPuIR      ; 3.055 ; 3.096 ; Rise       ; CPuIR           ;
+; uIR5      ; CPuIR      ; 3.871 ; 3.968 ; Rise       ; CPuIR           ;
+; uIR6      ; CPuIR      ; 3.065 ; 3.104 ; Rise       ; CPuIR           ;
+; uIR7      ; CPuIR      ; 3.998 ; 4.095 ; Rise       ; CPuIR           ;
+; uIR8      ; CPuIR      ; 2.942 ; 2.983 ; Rise       ; CPuIR           ;
+; uIR9      ; CPuIR      ; 3.065 ; 3.106 ; Rise       ; CPuIR           ;
+; uIR10     ; CPuIR      ; 3.079 ; 3.145 ; Rise       ; CPuIR           ;
+; uIR11     ; CPuIR      ; 2.989 ; 3.050 ; Rise       ; CPuIR           ;
+; uIR12     ; CPuIR      ; 3.227 ; 3.319 ; Rise       ; CPuIR           ;
+; uIR13     ; CPuIR      ; 2.935 ; 2.976 ; Rise       ; CPuIR           ;
+; uIR14     ; CPuIR      ; 3.062 ; 3.103 ; Rise       ; CPuIR           ;
+; uIR15     ; CPuIR      ; 3.887 ; 3.986 ; Rise       ; CPuIR           ;
+; uIR16     ; CPuIR      ; 3.871 ; 3.968 ; Rise       ; CPuIR           ;
+; uIR17     ; CPuIR      ; 2.992 ; 3.053 ; Rise       ; CPuIR           ;
+; uIR18     ; CPuIR      ; 2.950 ; 2.993 ; Rise       ; CPuIR           ;
+; uIR19     ; CPuIR      ; 3.062 ; 3.103 ; Rise       ; CPuIR           ;
+; uIR20     ; CPuIR      ; 2.961 ; 3.004 ; Rise       ; CPuIR           ;
+; uIR21     ; CPuIR      ; 3.055 ; 3.095 ; Rise       ; CPuIR           ;
+; uIR22     ; CPuIR      ; 3.164 ; 3.209 ; Rise       ; CPuIR           ;
+; uIR23     ; CPuIR      ; 4.014 ; 4.112 ; Rise       ; CPuIR           ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                                                                    ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; Pin           ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ; EBD File Name ; EBD Signal Name ; EBD Far-end ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; uIR23         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR22         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR21         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR20         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR19         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR18         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR17         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR16         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR15         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR14         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR13         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR12         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR11         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR10         ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR9          ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR8          ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR7          ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR6          ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR5          ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR4          ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR3          ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR2          ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR1          ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; uIR0          ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+
+
++----------------------------------------------------------------------------+
+; Input Transition Times                                                     ;
++-------------------------+--------------+-----------------+-----------------+
+; Pin                     ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++-------------------------+--------------+-----------------+-----------------+
+; r23                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; CPuIR                   ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r22                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r21                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r20                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r19                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r18                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r17                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r16                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r15                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r14                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r13                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r12                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r11                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r10                     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r9                      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r8                      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r7                      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r6                      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r5                      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r4                      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r3                      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r2                      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r1                      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; r0                      ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_ASDO_DATA1~     ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_FLASH_nCE_nCSO~ ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_DATA0~          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++-------------------------+--------------+-----------------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; uIR23         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.8e-09 V                    ; 2.33 V              ; -0.00425 V          ; 0.168 V                              ; 0.058 V                              ; 3.12e-09 s                  ; 2.87e-09 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.8e-09 V                   ; 2.33 V             ; -0.00425 V         ; 0.168 V                             ; 0.058 V                             ; 3.12e-09 s                 ; 2.87e-09 s                 ; Yes                       ; Yes                       ;
+; uIR22         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.8e-09 V                    ; 2.37 V              ; -0.00373 V          ; 0.104 V                              ; 0.011 V                              ; 4.34e-10 s                  ; 3.82e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.8e-09 V                   ; 2.37 V             ; -0.00373 V         ; 0.104 V                             ; 0.011 V                             ; 4.34e-10 s                 ; 3.82e-10 s                 ; Yes                       ; Yes                       ;
+; uIR21         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.8e-09 V                    ; 2.37 V              ; -0.00373 V          ; 0.104 V                              ; 0.011 V                              ; 4.34e-10 s                  ; 3.82e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.8e-09 V                   ; 2.37 V             ; -0.00373 V         ; 0.104 V                             ; 0.011 V                             ; 4.34e-10 s                 ; 3.82e-10 s                 ; Yes                       ; Yes                       ;
+; uIR20         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.38 V              ; -0.0073 V           ; 0.097 V                              ; 0.018 V                              ; 4.24e-10 s                  ; 3.65e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.38 V             ; -0.0073 V          ; 0.097 V                             ; 0.018 V                             ; 4.24e-10 s                 ; 3.65e-10 s                 ; No                        ; Yes                       ;
+; uIR19         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.8e-09 V                    ; 2.37 V              ; -0.00373 V          ; 0.104 V                              ; 0.011 V                              ; 4.34e-10 s                  ; 3.82e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.8e-09 V                   ; 2.37 V             ; -0.00373 V         ; 0.104 V                             ; 0.011 V                             ; 4.34e-10 s                 ; 3.82e-10 s                 ; Yes                       ; Yes                       ;
+; uIR18         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.38 V              ; -0.0073 V           ; 0.097 V                              ; 0.018 V                              ; 4.24e-10 s                  ; 3.65e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.38 V             ; -0.0073 V          ; 0.097 V                             ; 0.018 V                             ; 4.24e-10 s                 ; 3.65e-10 s                 ; No                        ; Yes                       ;
+; uIR17         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.36 V              ; -0.00737 V          ; 0.209 V                              ; 0.012 V                              ; 5.22e-10 s                  ; 5.33e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.36 V             ; -0.00737 V         ; 0.209 V                             ; 0.012 V                             ; 5.22e-10 s                 ; 5.33e-10 s                 ; Yes                       ; Yes                       ;
+; uIR16         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.33 V              ; -0.00421 V          ; 0.165 V                              ; 0.078 V                              ; 3.11e-09 s                  ; 2.85e-09 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.33 V             ; -0.00421 V         ; 0.165 V                             ; 0.078 V                             ; 3.11e-09 s                 ; 2.85e-09 s                 ; Yes                       ; Yes                       ;
+; uIR15         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.33 V              ; -0.00421 V          ; 0.165 V                              ; 0.078 V                              ; 3.11e-09 s                  ; 2.85e-09 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.33 V             ; -0.00421 V         ; 0.165 V                             ; 0.078 V                             ; 3.11e-09 s                 ; 2.85e-09 s                 ; Yes                       ; Yes                       ;
+; uIR14         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.8e-09 V                    ; 2.37 V              ; -0.00373 V          ; 0.104 V                              ; 0.011 V                              ; 4.34e-10 s                  ; 3.82e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.8e-09 V                   ; 2.37 V             ; -0.00373 V         ; 0.104 V                             ; 0.011 V                             ; 4.34e-10 s                 ; 3.82e-10 s                 ; Yes                       ; Yes                       ;
+; uIR13         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.38 V              ; -0.0073 V           ; 0.097 V                              ; 0.018 V                              ; 4.24e-10 s                  ; 3.65e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.38 V             ; -0.0073 V          ; 0.097 V                             ; 0.018 V                             ; 4.24e-10 s                 ; 3.65e-10 s                 ; No                        ; Yes                       ;
+; uIR12         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.36 V              ; -0.00737 V          ; 0.209 V                              ; 0.012 V                              ; 5.22e-10 s                  ; 5.33e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.36 V             ; -0.00737 V         ; 0.209 V                             ; 0.012 V                             ; 5.22e-10 s                 ; 5.33e-10 s                 ; Yes                       ; Yes                       ;
+; uIR11         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.36 V              ; -0.00737 V          ; 0.209 V                              ; 0.012 V                              ; 5.22e-10 s                  ; 5.33e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.36 V             ; -0.00737 V         ; 0.209 V                             ; 0.012 V                             ; 5.22e-10 s                 ; 5.33e-10 s                 ; Yes                       ; Yes                       ;
+; uIR10         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.36 V              ; -0.00737 V          ; 0.209 V                              ; 0.012 V                              ; 5.22e-10 s                  ; 5.33e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.36 V             ; -0.00737 V         ; 0.209 V                             ; 0.012 V                             ; 5.22e-10 s                 ; 5.33e-10 s                 ; Yes                       ; Yes                       ;
+; uIR9          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.8e-09 V                    ; 2.37 V              ; -0.00373 V          ; 0.104 V                              ; 0.011 V                              ; 4.34e-10 s                  ; 3.82e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.8e-09 V                   ; 2.37 V             ; -0.00373 V         ; 0.104 V                             ; 0.011 V                             ; 4.34e-10 s                 ; 3.82e-10 s                 ; Yes                       ; Yes                       ;
+; uIR8          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.38 V              ; -0.0073 V           ; 0.097 V                              ; 0.018 V                              ; 4.24e-10 s                  ; 3.65e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.38 V             ; -0.0073 V          ; 0.097 V                             ; 0.018 V                             ; 4.24e-10 s                 ; 3.65e-10 s                 ; No                        ; Yes                       ;
+; uIR7          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.8e-09 V                    ; 2.33 V              ; -0.00425 V          ; 0.168 V                              ; 0.058 V                              ; 3.12e-09 s                  ; 2.87e-09 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.8e-09 V                   ; 2.33 V             ; -0.00425 V         ; 0.168 V                             ; 0.058 V                             ; 3.12e-09 s                 ; 2.87e-09 s                 ; Yes                       ; Yes                       ;
+; uIR6          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.8e-09 V                    ; 2.37 V              ; -0.00373 V          ; 0.104 V                              ; 0.011 V                              ; 4.34e-10 s                  ; 3.82e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.8e-09 V                   ; 2.37 V             ; -0.00373 V         ; 0.104 V                             ; 0.011 V                             ; 4.34e-10 s                 ; 3.82e-10 s                 ; Yes                       ; Yes                       ;
+; uIR5          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.33 V              ; -0.00421 V          ; 0.165 V                              ; 0.078 V                              ; 3.11e-09 s                  ; 2.85e-09 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.33 V             ; -0.00421 V         ; 0.165 V                             ; 0.078 V                             ; 3.11e-09 s                 ; 2.85e-09 s                 ; Yes                       ; Yes                       ;
+; uIR4          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.8e-09 V                    ; 2.37 V              ; -0.00373 V          ; 0.104 V                              ; 0.011 V                              ; 4.34e-10 s                  ; 3.82e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.8e-09 V                   ; 2.37 V             ; -0.00373 V         ; 0.104 V                             ; 0.011 V                             ; 4.34e-10 s                 ; 3.82e-10 s                 ; Yes                       ; Yes                       ;
+; uIR3          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.36 V              ; -0.00737 V          ; 0.209 V                              ; 0.012 V                              ; 5.22e-10 s                  ; 5.33e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.36 V             ; -0.00737 V         ; 0.209 V                             ; 0.012 V                             ; 5.22e-10 s                 ; 5.33e-10 s                 ; Yes                       ; Yes                       ;
+; uIR2          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.07e-09 V                   ; 2.36 V              ; -0.00737 V          ; 0.209 V                              ; 0.012 V                              ; 5.22e-10 s                  ; 5.33e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.07e-09 V                  ; 2.36 V             ; -0.00737 V         ; 0.209 V                             ; 0.012 V                             ; 5.22e-10 s                 ; 5.33e-10 s                 ; Yes                       ; Yes                       ;
+; uIR1          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.8e-09 V                    ; 2.37 V              ; -0.00373 V          ; 0.104 V                              ; 0.011 V                              ; 4.34e-10 s                  ; 3.82e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.8e-09 V                   ; 2.37 V             ; -0.00373 V         ; 0.104 V                             ; 0.011 V                             ; 4.34e-10 s                 ; 3.82e-10 s                 ; Yes                       ; Yes                       ;
+; uIR0          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.8e-09 V                    ; 2.37 V              ; -0.00373 V          ; 0.104 V                              ; 0.011 V                              ; 4.34e-10 s                  ; 3.82e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.8e-09 V                   ; 2.37 V             ; -0.00373 V         ; 0.104 V                             ; 0.011 V                             ; 4.34e-10 s                 ; 3.82e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.74e-09 V                   ; 2.37 V              ; -0.0346 V           ; 0.198 V                              ; 0.094 V                              ; 3.14e-10 s                  ; 2.92e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.74e-09 V                  ; 2.37 V             ; -0.0346 V          ; 0.198 V                             ; 0.094 V                             ; 3.14e-10 s                 ; 2.92e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.57e-09 V                   ; 2.37 V              ; -0.00683 V          ; 0.171 V                              ; 0.018 V                              ; 4.97e-10 s                  ; 6.66e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.57e-09 V                  ; 2.37 V             ; -0.00683 V         ; 0.171 V                             ; 0.018 V                             ; 4.97e-10 s                 ; 6.66e-10 s                 ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 85c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; uIR23         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.85e-07 V                   ; 2.33 V              ; -0.00229 V          ; 0.111 V                              ; 0.057 V                              ; 3.78e-09 s                  ; 3.5e-09 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 2.85e-07 V                  ; 2.33 V             ; -0.00229 V         ; 0.111 V                             ; 0.057 V                             ; 3.78e-09 s                 ; 3.5e-09 s                  ; Yes                       ; Yes                       ;
+; uIR22         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.85e-07 V                   ; 2.35 V              ; -0.0123 V           ; 0.144 V                              ; 0.042 V                              ; 4.81e-10 s                  ; 4.81e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.85e-07 V                  ; 2.35 V             ; -0.0123 V          ; 0.144 V                             ; 0.042 V                             ; 4.81e-10 s                 ; 4.81e-10 s                 ; Yes                       ; Yes                       ;
+; uIR21         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.85e-07 V                   ; 2.35 V              ; -0.0123 V           ; 0.144 V                              ; 0.042 V                              ; 4.81e-10 s                  ; 4.81e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.85e-07 V                  ; 2.35 V             ; -0.0123 V          ; 0.144 V                             ; 0.042 V                             ; 4.81e-10 s                 ; 4.81e-10 s                 ; Yes                       ; Yes                       ;
+; uIR20         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.35 V              ; -0.00834 V          ; 0.127 V                              ; 0.035 V                              ; 4.7e-10 s                   ; 4.64e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.35 V             ; -0.00834 V         ; 0.127 V                             ; 0.035 V                             ; 4.7e-10 s                  ; 4.64e-10 s                 ; Yes                       ; Yes                       ;
+; uIR19         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.85e-07 V                   ; 2.35 V              ; -0.0123 V           ; 0.144 V                              ; 0.042 V                              ; 4.81e-10 s                  ; 4.81e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.85e-07 V                  ; 2.35 V             ; -0.0123 V          ; 0.144 V                             ; 0.042 V                             ; 4.81e-10 s                 ; 4.81e-10 s                 ; Yes                       ; Yes                       ;
+; uIR18         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.35 V              ; -0.00834 V          ; 0.127 V                              ; 0.035 V                              ; 4.7e-10 s                   ; 4.64e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.35 V             ; -0.00834 V         ; 0.127 V                             ; 0.035 V                             ; 4.7e-10 s                  ; 4.64e-10 s                 ; Yes                       ; Yes                       ;
+; uIR17         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.34 V              ; -0.00869 V          ; 0.14 V                               ; 0.046 V                              ; 6.89e-10 s                  ; 6.56e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.34 V             ; -0.00869 V         ; 0.14 V                              ; 0.046 V                             ; 6.89e-10 s                 ; 6.56e-10 s                 ; Yes                       ; Yes                       ;
+; uIR16         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.33 V              ; -0.0022 V           ; 0.088 V                              ; 0.056 V                              ; 3.76e-09 s                  ; 3.48e-09 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.33 V             ; -0.0022 V          ; 0.088 V                             ; 0.056 V                             ; 3.76e-09 s                 ; 3.48e-09 s                 ; Yes                       ; Yes                       ;
+; uIR15         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.33 V              ; -0.0022 V           ; 0.088 V                              ; 0.056 V                              ; 3.76e-09 s                  ; 3.48e-09 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.33 V             ; -0.0022 V          ; 0.088 V                             ; 0.056 V                             ; 3.76e-09 s                 ; 3.48e-09 s                 ; Yes                       ; Yes                       ;
+; uIR14         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.85e-07 V                   ; 2.35 V              ; -0.0123 V           ; 0.144 V                              ; 0.042 V                              ; 4.81e-10 s                  ; 4.81e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.85e-07 V                  ; 2.35 V             ; -0.0123 V          ; 0.144 V                             ; 0.042 V                             ; 4.81e-10 s                 ; 4.81e-10 s                 ; Yes                       ; Yes                       ;
+; uIR13         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.35 V              ; -0.00834 V          ; 0.127 V                              ; 0.035 V                              ; 4.7e-10 s                   ; 4.64e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.35 V             ; -0.00834 V         ; 0.127 V                             ; 0.035 V                             ; 4.7e-10 s                  ; 4.64e-10 s                 ; Yes                       ; Yes                       ;
+; uIR12         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.34 V              ; -0.00869 V          ; 0.14 V                               ; 0.046 V                              ; 6.89e-10 s                  ; 6.56e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.34 V             ; -0.00869 V         ; 0.14 V                              ; 0.046 V                             ; 6.89e-10 s                 ; 6.56e-10 s                 ; Yes                       ; Yes                       ;
+; uIR11         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.34 V              ; -0.00869 V          ; 0.14 V                               ; 0.046 V                              ; 6.89e-10 s                  ; 6.56e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.34 V             ; -0.00869 V         ; 0.14 V                              ; 0.046 V                             ; 6.89e-10 s                 ; 6.56e-10 s                 ; Yes                       ; Yes                       ;
+; uIR10         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.34 V              ; -0.00869 V          ; 0.14 V                               ; 0.046 V                              ; 6.89e-10 s                  ; 6.56e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.34 V             ; -0.00869 V         ; 0.14 V                              ; 0.046 V                             ; 6.89e-10 s                 ; 6.56e-10 s                 ; Yes                       ; Yes                       ;
+; uIR9          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.85e-07 V                   ; 2.35 V              ; -0.0123 V           ; 0.144 V                              ; 0.042 V                              ; 4.81e-10 s                  ; 4.81e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.85e-07 V                  ; 2.35 V             ; -0.0123 V          ; 0.144 V                             ; 0.042 V                             ; 4.81e-10 s                 ; 4.81e-10 s                 ; Yes                       ; Yes                       ;
+; uIR8          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.35 V              ; -0.00834 V          ; 0.127 V                              ; 0.035 V                              ; 4.7e-10 s                   ; 4.64e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.35 V             ; -0.00834 V         ; 0.127 V                             ; 0.035 V                             ; 4.7e-10 s                  ; 4.64e-10 s                 ; Yes                       ; Yes                       ;
+; uIR7          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.85e-07 V                   ; 2.33 V              ; -0.00229 V          ; 0.111 V                              ; 0.057 V                              ; 3.78e-09 s                  ; 3.5e-09 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 2.85e-07 V                  ; 2.33 V             ; -0.00229 V         ; 0.111 V                             ; 0.057 V                             ; 3.78e-09 s                 ; 3.5e-09 s                  ; Yes                       ; Yes                       ;
+; uIR6          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.85e-07 V                   ; 2.35 V              ; -0.0123 V           ; 0.144 V                              ; 0.042 V                              ; 4.81e-10 s                  ; 4.81e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.85e-07 V                  ; 2.35 V             ; -0.0123 V          ; 0.144 V                             ; 0.042 V                             ; 4.81e-10 s                 ; 4.81e-10 s                 ; Yes                       ; Yes                       ;
+; uIR5          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.33 V              ; -0.0022 V           ; 0.088 V                              ; 0.056 V                              ; 3.76e-09 s                  ; 3.48e-09 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.33 V             ; -0.0022 V          ; 0.088 V                             ; 0.056 V                             ; 3.76e-09 s                 ; 3.48e-09 s                 ; Yes                       ; Yes                       ;
+; uIR4          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.85e-07 V                   ; 2.35 V              ; -0.0123 V           ; 0.144 V                              ; 0.042 V                              ; 4.81e-10 s                  ; 4.81e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.85e-07 V                  ; 2.35 V             ; -0.0123 V          ; 0.144 V                             ; 0.042 V                             ; 4.81e-10 s                 ; 4.81e-10 s                 ; Yes                       ; Yes                       ;
+; uIR3          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.34 V              ; -0.00869 V          ; 0.14 V                               ; 0.046 V                              ; 6.89e-10 s                  ; 6.56e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.34 V             ; -0.00869 V         ; 0.14 V                              ; 0.046 V                             ; 6.89e-10 s                 ; 6.56e-10 s                 ; Yes                       ; Yes                       ;
+; uIR2          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.93e-07 V                   ; 2.34 V              ; -0.00869 V          ; 0.14 V                               ; 0.046 V                              ; 6.89e-10 s                  ; 6.56e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.93e-07 V                  ; 2.34 V             ; -0.00869 V         ; 0.14 V                              ; 0.046 V                             ; 6.89e-10 s                 ; 6.56e-10 s                 ; Yes                       ; Yes                       ;
+; uIR1          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.85e-07 V                   ; 2.35 V              ; -0.0123 V           ; 0.144 V                              ; 0.042 V                              ; 4.81e-10 s                  ; 4.81e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.85e-07 V                  ; 2.35 V             ; -0.0123 V          ; 0.144 V                             ; 0.042 V                             ; 4.81e-10 s                 ; 4.81e-10 s                 ; Yes                       ; Yes                       ;
+; uIR0          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.85e-07 V                   ; 2.35 V              ; -0.0123 V           ; 0.144 V                              ; 0.042 V                              ; 4.81e-10 s                  ; 4.81e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.85e-07 V                  ; 2.35 V             ; -0.0123 V          ; 0.144 V                             ; 0.042 V                             ; 4.81e-10 s                 ; 4.81e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.55e-07 V                   ; 2.35 V              ; -0.00221 V          ; 0.097 V                              ; 0.005 V                              ; 4.49e-10 s                  ; 3.85e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.55e-07 V                  ; 2.35 V             ; -0.00221 V         ; 0.097 V                             ; 0.005 V                             ; 4.49e-10 s                 ; 3.85e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 2.54e-07 V                   ; 2.34 V              ; -0.00774 V          ; 0.109 V                              ; 0.026 V                              ; 6.58e-10 s                  ; 8.24e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 2.54e-07 V                  ; 2.34 V             ; -0.00774 V         ; 0.109 V                             ; 0.026 V                             ; 6.58e-10 s                 ; 8.24e-10 s                 ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Fast 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; uIR23         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.64 V              ; -0.0113 V           ; 0.208 V                              ; 0.179 V                              ; 2.38e-09 s                  ; 2.23e-09 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.64 V             ; -0.0113 V          ; 0.208 V                             ; 0.179 V                             ; 2.38e-09 s                 ; 2.23e-09 s                 ; No                        ; Yes                       ;
+; uIR22         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.72 V              ; -0.0349 V           ; 0.173 V                              ; 0.1 V                                ; 2.72e-10 s                  ; 2.69e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.72 V             ; -0.0349 V          ; 0.173 V                             ; 0.1 V                               ; 2.72e-10 s                 ; 2.69e-10 s                 ; Yes                       ; Yes                       ;
+; uIR21         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.72 V              ; -0.0349 V           ; 0.173 V                              ; 0.1 V                                ; 2.72e-10 s                  ; 2.69e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.72 V             ; -0.0349 V          ; 0.173 V                             ; 0.1 V                               ; 2.72e-10 s                 ; 2.69e-10 s                 ; Yes                       ; Yes                       ;
+; uIR20         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.73 V              ; -0.0384 V           ; 0.169 V                              ; 0.089 V                              ; 2.7e-10 s                   ; 2.62e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.73 V             ; -0.0384 V          ; 0.169 V                             ; 0.089 V                             ; 2.7e-10 s                  ; 2.62e-10 s                 ; Yes                       ; Yes                       ;
+; uIR19         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.72 V              ; -0.0349 V           ; 0.173 V                              ; 0.1 V                                ; 2.72e-10 s                  ; 2.69e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.72 V             ; -0.0349 V          ; 0.173 V                             ; 0.1 V                               ; 2.72e-10 s                 ; 2.69e-10 s                 ; Yes                       ; Yes                       ;
+; uIR18         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.73 V              ; -0.0384 V           ; 0.169 V                              ; 0.089 V                              ; 2.7e-10 s                   ; 2.62e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.73 V             ; -0.0384 V          ; 0.169 V                             ; 0.089 V                             ; 2.7e-10 s                  ; 2.62e-10 s                 ; Yes                       ; Yes                       ;
+; uIR17         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.71 V              ; -0.0317 V           ; 0.148 V                              ; 0.064 V                              ; 4.51e-10 s                  ; 4.15e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.71 V             ; -0.0317 V          ; 0.148 V                             ; 0.064 V                             ; 4.51e-10 s                 ; 4.15e-10 s                 ; No                        ; Yes                       ;
+; uIR16         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.64 V              ; -0.0117 V           ; 0.202 V                              ; 0.176 V                              ; 2.38e-09 s                  ; 2.22e-09 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.64 V             ; -0.0117 V          ; 0.202 V                             ; 0.176 V                             ; 2.38e-09 s                 ; 2.22e-09 s                 ; No                        ; Yes                       ;
+; uIR15         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.64 V              ; -0.0117 V           ; 0.202 V                              ; 0.176 V                              ; 2.38e-09 s                  ; 2.22e-09 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.64 V             ; -0.0117 V          ; 0.202 V                             ; 0.176 V                             ; 2.38e-09 s                 ; 2.22e-09 s                 ; No                        ; Yes                       ;
+; uIR14         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.72 V              ; -0.0349 V           ; 0.173 V                              ; 0.1 V                                ; 2.72e-10 s                  ; 2.69e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.72 V             ; -0.0349 V          ; 0.173 V                             ; 0.1 V                               ; 2.72e-10 s                 ; 2.69e-10 s                 ; Yes                       ; Yes                       ;
+; uIR13         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.73 V              ; -0.0384 V           ; 0.169 V                              ; 0.089 V                              ; 2.7e-10 s                   ; 2.62e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.73 V             ; -0.0384 V          ; 0.169 V                             ; 0.089 V                             ; 2.7e-10 s                  ; 2.62e-10 s                 ; Yes                       ; Yes                       ;
+; uIR12         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.71 V              ; -0.0317 V           ; 0.148 V                              ; 0.064 V                              ; 4.51e-10 s                  ; 4.15e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.71 V             ; -0.0317 V          ; 0.148 V                             ; 0.064 V                             ; 4.51e-10 s                 ; 4.15e-10 s                 ; No                        ; Yes                       ;
+; uIR11         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.71 V              ; -0.0317 V           ; 0.148 V                              ; 0.064 V                              ; 4.51e-10 s                  ; 4.15e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.71 V             ; -0.0317 V          ; 0.148 V                             ; 0.064 V                             ; 4.51e-10 s                 ; 4.15e-10 s                 ; No                        ; Yes                       ;
+; uIR10         ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.71 V              ; -0.0317 V           ; 0.148 V                              ; 0.064 V                              ; 4.51e-10 s                  ; 4.15e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.71 V             ; -0.0317 V          ; 0.148 V                             ; 0.064 V                             ; 4.51e-10 s                 ; 4.15e-10 s                 ; No                        ; Yes                       ;
+; uIR9          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.72 V              ; -0.0349 V           ; 0.173 V                              ; 0.1 V                                ; 2.72e-10 s                  ; 2.69e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.72 V             ; -0.0349 V          ; 0.173 V                             ; 0.1 V                               ; 2.72e-10 s                 ; 2.69e-10 s                 ; Yes                       ; Yes                       ;
+; uIR8          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.73 V              ; -0.0384 V           ; 0.169 V                              ; 0.089 V                              ; 2.7e-10 s                   ; 2.62e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.73 V             ; -0.0384 V          ; 0.169 V                             ; 0.089 V                             ; 2.7e-10 s                  ; 2.62e-10 s                 ; Yes                       ; Yes                       ;
+; uIR7          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.64 V              ; -0.0113 V           ; 0.208 V                              ; 0.179 V                              ; 2.38e-09 s                  ; 2.23e-09 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.64 V             ; -0.0113 V          ; 0.208 V                             ; 0.179 V                             ; 2.38e-09 s                 ; 2.23e-09 s                 ; No                        ; Yes                       ;
+; uIR6          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.72 V              ; -0.0349 V           ; 0.173 V                              ; 0.1 V                                ; 2.72e-10 s                  ; 2.69e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.72 V             ; -0.0349 V          ; 0.173 V                             ; 0.1 V                               ; 2.72e-10 s                 ; 2.69e-10 s                 ; Yes                       ; Yes                       ;
+; uIR5          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.64 V              ; -0.0117 V           ; 0.202 V                              ; 0.176 V                              ; 2.38e-09 s                  ; 2.22e-09 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.64 V             ; -0.0117 V          ; 0.202 V                             ; 0.176 V                             ; 2.38e-09 s                 ; 2.22e-09 s                 ; No                        ; Yes                       ;
+; uIR4          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.72 V              ; -0.0349 V           ; 0.173 V                              ; 0.1 V                                ; 2.72e-10 s                  ; 2.69e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.72 V             ; -0.0349 V          ; 0.173 V                             ; 0.1 V                               ; 2.72e-10 s                 ; 2.69e-10 s                 ; Yes                       ; Yes                       ;
+; uIR3          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.71 V              ; -0.0317 V           ; 0.148 V                              ; 0.064 V                              ; 4.51e-10 s                  ; 4.15e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.71 V             ; -0.0317 V          ; 0.148 V                             ; 0.064 V                             ; 4.51e-10 s                 ; 4.15e-10 s                 ; No                        ; Yes                       ;
+; uIR2          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.74e-08 V                   ; 2.71 V              ; -0.0317 V           ; 0.148 V                              ; 0.064 V                              ; 4.51e-10 s                  ; 4.15e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 2.74e-08 V                  ; 2.71 V             ; -0.0317 V          ; 0.148 V                             ; 0.064 V                             ; 4.51e-10 s                 ; 4.15e-10 s                 ; No                        ; Yes                       ;
+; uIR1          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.72 V              ; -0.0349 V           ; 0.173 V                              ; 0.1 V                                ; 2.72e-10 s                  ; 2.69e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.72 V             ; -0.0349 V          ; 0.173 V                             ; 0.1 V                               ; 2.72e-10 s                 ; 2.69e-10 s                 ; Yes                       ; Yes                       ;
+; uIR0          ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.05e-08 V                   ; 2.72 V              ; -0.0349 V           ; 0.173 V                              ; 0.1 V                                ; 2.72e-10 s                  ; 2.69e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.05e-08 V                  ; 2.72 V             ; -0.0349 V          ; 0.173 V                             ; 0.1 V                               ; 2.72e-10 s                 ; 2.69e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 2.22e-08 V                   ; 2.74 V              ; -0.06 V             ; 0.158 V                              ; 0.08 V                               ; 2.68e-10 s                  ; 2.19e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 2.22e-08 V                  ; 2.74 V             ; -0.06 V            ; 0.158 V                             ; 0.08 V                              ; 2.68e-10 s                 ; 2.19e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.54e-08 V                   ; 2.7 V               ; -0.00943 V          ; 0.276 V                              ; 0.035 V                              ; 3.19e-10 s                  ; 4.99e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 3.54e-08 V                  ; 2.7 V              ; -0.00943 V         ; 0.276 V                             ; 0.035 V                             ; 3.19e-10 s                 ; 4.99e-10 s                 ; No                        ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 24    ; 24   ;
+; Unconstrained Input Port Paths  ; 24    ; 24   ;
+; Unconstrained Output Ports      ; 24    ; 24   ;
+; Unconstrained Output Port Paths ; 24    ; 24   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+    Info: Processing started: Wed Oct 09 22:47:42 2019
+Info: Command: quartus_sta uIR -c uIR
+Info: qsta_default_script.tcl version: #1
+Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (21077): Core supply voltage is 1.2V
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'uIR.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332105): Deriving Clocks
+    Info (332105): create_clock -period 1.000 -name CPuIR CPuIR
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow 1200mV 85C Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case minimum pulse width slack is -3.000
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -3.000       -38.688 CPuIR 
+Info: Analyzing Slow 1200mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case minimum pulse width slack is -3.000
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -3.000       -38.688 CPuIR 
+Info: Analyzing Fast 1200mV 0C Model
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case minimum pulse width slack is -3.000
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -3.000       -28.553 CPuIR 
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4640 megabytes
+    Info: Processing ended: Wed Oct 09 22:47:43 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
